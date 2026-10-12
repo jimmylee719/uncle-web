@@ -155,10 +155,12 @@ export const MENU: MenuCategory[] = [
           ko: "표고버섯 완자탕",
         },
         price: 60,
+        img: "soup-meatball",
       },
       {
         name: { zh: "豬血湯", en: "Pork Blood Soup", ja: "豚の血のスープ", ko: "선지탕" },
         price: 60,
+        img: "soup-blood",
       },
     ],
   },
@@ -181,6 +183,7 @@ export const MENU: MenuCategory[] = [
       {
         name: { zh: "綜合豬雜", en: "Assorted Offal", ja: "もつ盛り合わせ", ko: "모둠 내장" },
         price: 90,
+        img: "offal-assorted",
         modes: true,
       },
       {
@@ -191,26 +194,31 @@ export const MENU: MenuCategory[] = [
           ko: "간련 (돼지 횡격막)",
         },
         price: 90,
+        img: "offal-liver",
         modes: true,
       },
       {
         name: { zh: "嘴邊肉", en: "Pork Cheek", ja: "豚ほほ肉", ko: "돼지 볼살" },
         price: 90,
+        img: "offal-cheek",
         modes: true,
       },
       {
         name: { zh: "豬心", en: "Pork Heart", ja: "豚ハツ", ko: "돼지 염통" },
         price: 80,
+        img: "offal-heart",
         modes: true,
       },
       {
         name: { zh: "豬舌", en: "Pork Tongue", ja: "豚タン", ko: "돼지 혀" },
         price: 80,
+        img: "offal-tongue",
         modes: true,
       },
       {
         name: { zh: "脆腸", en: "Crunchy Intestine", ja: "コリコリ腸", ko: "오독오독 곱창" },
         price: 80,
+        img: "offal-crunchy",
         modes: true,
       },
       {

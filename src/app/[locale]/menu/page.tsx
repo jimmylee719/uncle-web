@@ -109,9 +109,15 @@ export default async function MenuPage({ params }: PageProps<"/[locale]/menu">) 
                       ) : (
                         <span
                           aria-hidden
-                          className="flex h-[88px] w-[88px] shrink-0 items-center justify-center rounded-xl bg-ink font-serif text-4xl font-black text-cream/20 sm:h-28 sm:w-28"
+                          className="relative h-[88px] w-[88px] shrink-0 overflow-hidden rounded-xl bg-paper-2 ring-1 ring-ink/10 sm:h-28 sm:w-28"
                         >
-                          {it.name.zh[0]}
+                          <Image
+                            src="/images/mascot.png"
+                            alt=""
+                            fill
+                            sizes="112px"
+                            className="object-contain p-3 opacity-45 grayscale"
+                          />
                         </span>
                       )}
                       <div className="min-w-0 flex-1 self-center">
