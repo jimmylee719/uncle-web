@@ -200,7 +200,7 @@ export default async function MenuPage({ params }: PageProps<"/[locale]/menu">) 
             target="_blank"
             rel="noopener"
             aria-label={m.posterTitle}
-            className="rv-img mx-auto block w-[min(80vw,340px)] rotate-[2.5deg] bg-cream p-2.5 shadow-[0_40px_90px_-30px_rgba(0,0,0,0.8)] transition-transform duration-700 hover:rotate-0 lg:col-span-5"
+            className="rv-img mx-auto block w-[min(80vw,340px)] bg-cream p-2.5 shadow-[0_40px_90px_-30px_rgba(0,0,0,0.8)] transition-transform duration-700 lg:col-span-5"
           >
             <Image
               src="/images/menu-poster.jpg"

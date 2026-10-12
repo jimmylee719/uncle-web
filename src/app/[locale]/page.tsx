@@ -131,7 +131,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
             <p className="t-lead rv mt-10 max-w-xl opacity-85">{h.names.body}</p>
           </div>
           <div className="lg:col-span-5">
-            <figure className="rv-img relative mx-auto max-w-[460px] rotate-[2deg] bg-cream p-3 shadow-[0_40px_80px_-30px_rgba(19,15,13,0.55)]">
+            <figure className="rv-img relative mx-auto max-w-[460px] bg-cream p-3 shadow-[0_40px_80px_-30px_rgba(19,15,13,0.55)]">
               <Image
                 src="/images/brush-poster.jpg"
                 alt={h.names.caption}
@@ -212,7 +212,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
                       width={1000}
                       height={515}
                       sizes="260px"
-                      className="absolute -right-3 bottom-5 w-[62%] rotate-[-4deg] drop-shadow-[0_14px_20px_rgba(0,0,0,0.5)] transition-transform duration-700 group-hover:rotate-[-1deg] group-hover:scale-105"
+                      className="absolute -right-3 bottom-5 w-[62%] drop-shadow-[0_14px_20px_rgba(0,0,0,0.5)] transition-transform duration-700 group-hover:scale-105"
                     />
                   )}
                   <span className="numeral absolute bottom-3 left-5 text-6xl font-black text-cream/90 drop-shadow-lg">
@@ -269,7 +269,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
             </div>
             <div
               aria-hidden
-              className="absolute -left-3 -top-5 flex h-28 w-28 -rotate-6 flex-col items-center justify-center rounded-full bg-cream text-vermilion shadow-xl md:-left-8 md:-top-8 md:h-36 md:w-36"
+              className="absolute -left-3 -top-5 flex h-28 w-28 flex-col items-center justify-center rounded-full bg-cream text-vermilion shadow-xl md:-left-8 md:-top-8 md:h-36 md:w-36"
             >
               <span className="numeral text-3xl font-black leading-none md:text-4xl">+NT$0</span>
               <span className="mt-1.5 px-2 text-center text-[0.68rem] font-bold tracking-wider md:text-xs">

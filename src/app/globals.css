@@ -235,7 +235,6 @@ img {
   box-shadow:
     inset 0 0 0 2px rgba(243, 234, 215, 0.6),
     0 8px 24px -8px rgba(0, 0, 0, 0.6);
-  transform: rotate(-3deg);
 }
 .vtext {
   writing-mode: vertical-rl;

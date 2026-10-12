@@ -94,7 +94,7 @@ export default async function StoryPage({ params }: PageProps<"/[locale]/story">
                 {/* 參：四語海報 + 吉祥物 */}
                 {i === 2 && (
                   <div className="mt-14 grid items-center gap-10 md:grid-cols-2">
-                    <figure className="rv-img mx-auto w-full max-w-[420px] rotate-[-2deg] bg-cream p-3 shadow-[0_40px_80px_-30px_rgba(19,15,13,0.5)]">
+                    <figure className="rv-img mx-auto w-full max-w-[420px] bg-cream p-3 shadow-[0_40px_80px_-30px_rgba(19,15,13,0.5)]">
                       <Image
                         src="/images/brush-poster.jpg"
                         alt="豬雜 · ホルモン · 돼지 내장 · Pork Offal"
