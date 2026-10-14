@@ -177,13 +177,13 @@ const en: Dict = {
     storyTeaser: {
       eyebrow: "Our story",
       title: "From Grandma’s stove\nto a Taipei alley.",
-      body: "Grandma’s smokehouse, Mom’s spicy cabbage, a pot of pork braising all day. We carried the best flavors of home to a small alley in Da’an.",
+      body: "Grandma’s smokehouse, Mom’s spicy cabbage, a pot of pork braising all day. We carried the best flavors of home to the mouth of Lane 216 in Da’an.",
       cta: "Read our story",
     },
     franchise: {
       eyebrow: "Franchise partners wanted",
       title: "Bring a bowl of\nGu Zao Wei to your city.",
-      body: "Starting from a Taipei alley, we are looking for our first founding partners to turn pork offal rice noodle soup into a brand that travels across Taiwan and the world.",
+      body: "Starting from the mouth of Lane 216, we are looking for our first founding partners to turn pork offal rice noodle soup into a brand that travels across Taiwan and the world.",
       points: [
         "A highly recognizable brand identity",
         "A focused menu that is easy to run",
@@ -194,7 +194,7 @@ const en: Dict = {
     },
     visit: {
       eyebrow: "Visit",
-      title: "In a Da’an alley, waiting for you.",
+      title: "At the mouth of Lane 216, waiting for you.",
       body: "Monday to Friday, lunch and dinner each bring a window when the broth is at its best. Can’t make it? Order on Uber Eats at in-store prices.",
     },
   },
@@ -212,7 +212,7 @@ const en: Dict = {
         body: [
           "In our home, there was no such thing as “leftover parts.”",
           "Grandma’s smoked pork head meat, Mom’s spicy cabbage, a pot of pork braising from morning till night. In those days a single pig fed the family for many meals, and every part had its own way of being treated well — because every piece was both generosity and hard work.",
-          "Later, we carried those flavors out of the house and opened a small shop in an alley in Da’an, Taipei.",
+          "Later, we carried those flavors out of the house and opened a small shop at the mouth of Lane 216 in Da’an, Taipei.",
         ],
       },
       {
@@ -357,7 +357,7 @@ const en: Dict = {
     hero: {
       eyebrow: "FRANCHISE · PARTNERS WANTED",
       title: "Bring a bowl of\nGu Zao Wei to your city.",
-      sub: "Born in a Taipei alley in Da’an. We are looking for our first founding partners to turn pork offal rice noodle soup into a brand that travels across Taiwan and the world.",
+      sub: "Born at the mouth of Lane 216 in Da’an, Taipei. We are looking for our first founding partners to turn pork offal rice noodle soup into a brand that travels across Taiwan and the world.",
       cta: "Book a briefing",
       cta2: "See store formats",
       badge: "Founding partner reservations open",
