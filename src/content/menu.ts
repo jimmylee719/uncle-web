@@ -229,16 +229,19 @@ export const MENU: MenuCategory[] = [
           ko: "분장 (부드러운 소장)",
         },
         price: 80,
+        img: "offal-fen",
         modes: true,
       },
       {
         name: { zh: "大腸", en: "Large Intestine", ja: "大腸", ko: "대창" },
         price: 80,
+        img: "offal-large",
         modes: true,
       },
       {
         name: { zh: "小腸", en: "Small Intestine", ja: "小腸", ko: "소장" },
         price: 80,
+        img: "offal-small",
         modes: true,
       },
     ],
@@ -256,6 +259,7 @@ export const MENU: MenuCategory[] = [
           ko: "주바오베이",
         },
         price: 200,
+        img: "limited-baobei",
         badge: "limited",
         note: {
           zh: "限定供應，詳情請洽現場",
@@ -279,6 +283,7 @@ export const MENU: MenuCategory[] = [
           ko: "챔피언 루러우 소스 냉동팩",
         },
         price: 80,
+        img: "chilled-sauce",
         size: "150g",
       },
     ],
@@ -296,6 +301,7 @@ export const MENU: MenuCategory[] = [
           ko: "마늘소스 삶은 돼지고기",
         },
         price: 120,
+        img: "side-garlicpork",
       },
       {
         name: {
@@ -305,6 +311,7 @@ export const MENU: MenuCategory[] = [
           ko: "할머니표 훈제 돼지머리고기",
         },
         price: 60,
+        img: "side-smokedhead",
       },
       {
         name: {
@@ -314,6 +321,7 @@ export const MENU: MenuCategory[] = [
           ko: "할머니표 훈제 건두부",
         },
         price: 60,
+        img: "side-smokedtofu",
       },
       {
         name: {
